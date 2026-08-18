@@ -32,7 +32,7 @@ while True:
                 check = True
                 print("Already Exist")
                 break
-            elif storage["Quan"]<0:
+            elif a["Quan"]<0:
                 print("Numbers cannot be negative")
         if not check:
             print(f"{storage['Name']}, {storage['Quan']}, {storage['Price']}")
